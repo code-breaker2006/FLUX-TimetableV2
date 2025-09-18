@@ -1,0 +1,189 @@
+[
+  {
+    "id": "CS101",
+    "code": "CS101", 
+    "title": "Introduction to Programming",
+    "credits": 3,
+    "department": "Computer Science",
+    "description": "Fundamental programming concepts using Python",
+    "prerequisites": [],
+    "capacity": 50,
+    "type": "lecture"
+  },
+  {
+    "id": "CS201",
+    "code": "CS201",
+    "title": "Data Structures and Algorithms", 
+    "credits": 3,
+    "department": "Computer Science",
+    "description": "Core data structures and algorithmic thinking",
+    "prerequisites": ["CS101"],
+    "capacity": 40,
+    "type": "lecture"
+  },
+  {
+    "id": "CS301",
+    "code": "CS301",
+    "title": "Database Systems",
+    "credits": 3,
+    "department": "Computer Science", 
+    "description": "Relational databases and SQL",
+    "prerequisites": ["CS201"],
+    "capacity": 35,
+    "type": "lecture"
+  },
+  {
+    "id": "CS401",
+    "code": "CS401",
+    "title": "Software Engineering",
+    "credits": 4,
+    "department": "Computer Science",
+    "description": "Software development methodologies and best practices",
+    "prerequisites": ["CS301"],
+    "capacity": 30,
+    "type": "lecture"
+  },
+  {
+    "id": "CS501", 
+    "code": "CS501",
+    "title": "Machine Learning",
+    "credits": 3,
+    "department": "Computer Science",
+    "description": "Introduction to machine learning algorithms",
+    "prerequisites": ["CS201", "MATH301"],
+    "capacity": 25,
+    "type": "lecture"
+  },
+  {
+    "id": "MATH201",
+    "code": "MATH201",
+    "title": "Calculus II",
+    "credits": 4,
+    "department": "Mathematics",
+    "description": "Integration techniques and applications",
+    "prerequisites": ["MATH101"], 
+    "capacity": 60,
+    "type": "lecture"
+  },
+  {
+    "id": "MATH301",
+    "code": "MATH301", 
+    "title": "Linear Algebra",
+    "credits": 3,
+    "department": "Mathematics",
+    "description": "Vector spaces and linear transformations",
+    "prerequisites": ["MATH201"],
+    "capacity": 45,
+    "type": "lecture"
+  },
+  {
+    "id": "MATH401",
+    "code": "MATH401",
+    "title": "Abstract Algebra",
+    "credits": 3,
+    "department": "Mathematics",
+    "description": "Groups, rings, and fields",
+    "prerequisites": ["MATH301"], 
+    "capacity": 30,
+    "type": "lecture"
+  },
+  {
+    "id": "MATH501",
+    "code": "MATH501",
+    "title": "Real Analysis",
+    "credits": 4,
+    "department": "Mathematics",
+    "description": "Rigorous analysis of real functions",
+    "prerequisites": ["MATH401"],
+    "capacity": 20,
+    "type": "lecture"
+  },
+  {
+    "id": "PHY101",
+    "code": "PHY101",
+    "title": "Physics I",
+    "credits": 3,
+    "department": "Physics",
+    "description": "Mechanics and thermodynamics", 
+    "prerequisites": ["MATH101"],
+    "capacity": 50,
+    "type": "lecture"
+  },
+  {
+    "id": "PHY201",
+    "code": "PHY201",
+    "title": "Physics II", 
+    "credits": 3,
+    "department": "Physics",
+    "description": "Electricity, magnetism, and waves",
+    "prerequisites": ["PHY101"],
+    "capacity": 40,
+    "type": "lecture"
+  },
+  {
+    "id": "PHY301",
+    "code": "PHY301",
+    "title": "Quantum Mechanics I",
+    "credits": 4,
+    "department": "Physics",
+    "description": "Introduction to quantum theory",
+    "prerequisites": ["PHY201", "MATH301"],
+    "capacity": 25,
+    "type": "lecture"
+  },
+  {
+    "id": "PHY401",
+    "code": "PHY401",
+    "title": "Quantum Mechanics II",
+    "credits": 4,
+    "department": "Physics", 
+    "description": "Advanced quantum mechanics",
+    "prerequisites": ["PHY301"],
+    "capacity": 20,
+    "type": "lecture"
+  },
+  {
+    "id": "PHY501",
+    "code": "PHY501",
+    "title": "Statistical Mechanics",
+    "credits": 3,
+    "department": "Physics",
+    "description": "Thermal physics and statistical methods",
+    "prerequisites": ["PHY301"],
+    "capacity": 15,
+    "type": "lecture"
+  },
+  {
+    "id": "ENG102",
+    "code": "ENG102",
+    "title": "Technical Writing",
+    "credits": 2,
+    "department": "English",
+    "description": "Writing skills for technical professionals",
+    "prerequisites": [],
+    "capacity": 30,
+    "type": "seminar"
+  },
+  {
+    "id": "ENG201",
+    "code": "ENG201",
+    "title": "Literature and Culture",
+    "credits": 3,
+    "department": "English", 
+    "description": "Analysis of literary works in cultural context",
+    "prerequisites": ["ENG102"],
+    "capacity": 25,
+    "type": "seminar"
+  },
+  {
+    "id": "ENG301",
+    "code": "ENG301",
+    "title": "Advanced Composition",
+    "credits": 3,
+    "department": "English",
+    "description": "Advanced writing techniques and rhetoric",
+    "prerequisites": ["ENG201"],
+    "capacity": 20,
+    "type": "seminar"
+  }
+]

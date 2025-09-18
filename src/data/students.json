@@ -1,0 +1,92 @@
+[
+  {
+    "id": "STU001",
+    "name": "Alex Chen",
+    "email": "alex.chen@university.edu",
+    "program": "Computer Science",
+    "batch": "CS2024",
+    "year": 2,
+    "gpa": 3.85
+  },
+  {
+    "id": "STU002", 
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@university.edu",
+    "program": "Computer Science", 
+    "batch": "CS2024",
+    "year": 2,
+    "gpa": 3.92
+  },
+  {
+    "id": "STU003",
+    "name": "Michael Brown",
+    "email": "michael.brown@university.edu", 
+    "program": "Mathematics",
+    "batch": "MATH2024",
+    "year": 1,
+    "gpa": 3.78
+  },
+  {
+    "id": "STU004",
+    "name": "Emily Davis", 
+    "email": "emily.davis@university.edu",
+    "program": "Physics",
+    "batch": "PHY2024",
+    "year": 1,
+    "gpa": 3.67
+  },
+  {
+    "id": "STU005",
+    "name": "David Wilson",
+    "email": "david.wilson@university.edu",
+    "program": "Computer Science", 
+    "batch": "CS2023",
+    "year": 3,
+    "gpa": 3.45
+  },
+  {
+    "id": "STU006",
+    "name": "Lisa Anderson",
+    "email": "lisa.anderson@university.edu",
+    "program": "Mathematics",
+    "batch": "MATH2023", 
+    "year": 3,
+    "gpa": 3.89
+  },
+  {
+    "id": "STU007",
+    "name": "Robert Kim",
+    "email": "robert.kim@university.edu",
+    "program": "Physics",
+    "batch": "PHY2023",
+    "year": 3, 
+    "gpa": 3.72
+  },
+  {
+    "id": "STU008",
+    "name": "Jennifer Lee",
+    "email": "jennifer.lee@university.edu",
+    "program": "English",
+    "batch": "ENG2024",
+    "year": 1,
+    "gpa": 3.94
+  },
+  {
+    "id": "STU009",
+    "name": "Chris Taylor",
+    "email": "chris.taylor@university.edu", 
+    "program": "Computer Science",
+    "batch": "CS2024",
+    "year": 2,
+    "gpa": 3.56
+  },
+  {
+    "id": "STU010",
+    "name": "Maria Rodriguez",
+    "email": "maria.rodriguez@university.edu",
+    "program": "Mathematics", 
+    "batch": "MATH2024",
+    "year": 1,
+    "gpa": 3.81
+  }
+]

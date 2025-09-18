@@ -1,0 +1,206 @@
+{
+  "current": {
+    "admin": [
+      {
+        "id": "evt1",
+        "title": "CS101 - Introduction to Programming",
+        "start": "2024-01-15T09:00:00",
+        "end": "2024-01-15T10:30:00",
+        "extendedProps": {
+          "faculty": "Dr. Sarah Chen",
+          "room": "LAB-204", 
+          "students": 45,
+          "type": "lecture",
+          "course_code": "CS101"
+        },
+        "backgroundColor": "#3b82f6",
+        "borderColor": "#2563eb"
+      },
+      {
+        "id": "evt2",
+        "title": "MATH201 - Calculus II",
+        "start": "2024-01-15T11:00:00",
+        "end": "2024-01-15T12:30:00",
+        "extendedProps": {
+          "faculty": "Prof. Michael Brown",
+          "room": "ROOM-301",
+          "students": 38,
+          "type": "lecture",
+          "course_code": "MATH201"
+        },
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669"
+      },
+      {
+        "id": "evt3",
+        "title": "PHY101 - Physics I",
+        "start": "2024-01-15T14:00:00",
+        "end": "2024-01-15T15:30:00",
+        "extendedProps": {
+          "faculty": "Dr. Emily Davis",
+          "room": "PHY-LAB-1",
+          "students": 30,
+          "type": "lab",
+          "course_code": "PHY101"
+        },
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706"
+      },
+      {
+        "id": "evt4",
+        "title": "CS201 - Data Structures",
+        "start": "2024-01-16T09:00:00",
+        "end": "2024-01-16T10:30:00",
+        "extendedProps": {
+          "faculty": "Dr. Robert Kim",
+          "room": "LAB-205",
+          "students": 32,
+          "type": "lecture",
+          "course_code": "CS201"
+        },
+        "backgroundColor": "#8b5cf6",
+        "borderColor": "#7c3aed"
+      },
+      {
+        "id": "evt5",
+        "title": "ENG102 - Technical Writing",
+        "start": "2024-01-16T11:00:00",
+        "end": "2024-01-16T12:00:00",
+        "extendedProps": {
+          "faculty": "Prof. Lisa Wilson",
+          "room": "ROOM-201",
+          "students": 25,
+          "type": "seminar",
+          "course_code": "ENG102"
+        },
+        "backgroundColor": "#06b6d4",
+        "borderColor": "#0891b2"
+      },
+      {
+        "id": "evt6",
+        "title": "MATH301 - Linear Algebra",
+        "start": "2024-01-17T10:00:00",
+        "end": "2024-01-17T11:30:00",
+        "extendedProps": {
+          "faculty": "Dr. Jennifer Lee",
+          "room": "ROOM-302",
+          "students": 28,
+          "type": "lecture",
+          "course_code": "MATH301"
+        },
+        "backgroundColor": "#84cc16",
+        "borderColor": "#65a30d"
+      },
+      {
+        "id": "evt7",
+        "title": "CS301 - Database Systems",
+        "start": "2024-01-17T14:00:00", 
+        "end": "2024-01-17T15:30:00",
+        "extendedProps": {
+          "faculty": "Dr. Sarah Chen",
+          "room": "LAB-204",
+          "students": 35,
+          "type": "lecture",
+          "course_code": "CS301"
+        },
+        "backgroundColor": "#f97316",
+        "borderColor": "#ea580c"
+      },
+      {
+        "id": "evt8",
+        "title": "PHY201 - Physics II",
+        "start": "2024-01-18T09:00:00",
+        "end": "2024-01-18T10:30:00",
+        "extendedProps": {
+          "faculty": "Prof. James Wilson",
+          "room": "PHY-LAB-2",
+          "students": 26,
+          "type": "lecture", 
+          "course_code": "PHY201"
+        },
+        "backgroundColor": "#ef4444",
+        "borderColor": "#dc2626"
+      }
+    ],
+    "faculty": {
+      "FAC001": [
+        {
+          "id": "fac1_evt1",
+          "title": "CS101 - Introduction to Programming",
+          "start": "2024-01-15T09:00:00",
+          "end": "2024-01-15T10:30:00",
+          "extendedProps": {
+            "room": "LAB-204",
+            "students": 45,
+            "type": "lecture"
+          },
+          "backgroundColor": "#3b82f6"
+        },
+        {
+          "id": "fac1_evt2", 
+          "title": "CS301 - Database Systems",
+          "start": "2024-01-17T14:00:00",
+          "end": "2024-01-17T15:30:00",
+          "extendedProps": {
+            "room": "LAB-204",
+            "students": 35,
+            "type": "lecture"
+          },
+          "backgroundColor": "#f97316"
+        }
+      ]
+    },
+    "students": {
+      "STU001": [
+        {
+          "id": "stu1_evt1",
+          "title": "CS101 - Introduction to Programming",
+          "start": "2024-01-15T09:00:00",
+          "end": "2024-01-15T10:30:00",
+          "extendedProps": {
+            "faculty": "Dr. Sarah Chen",
+            "room": "LAB-204",
+            "type": "lecture"
+          },
+          "backgroundColor": "#3b82f6"
+        },
+        {
+          "id": "stu1_evt2",
+          "title": "MATH201 - Calculus II", 
+          "start": "2024-01-15T11:00:00",
+          "end": "2024-01-15T12:30:00",
+          "extendedProps": {
+            "faculty": "Prof. Michael Brown",
+            "room": "ROOM-301",
+            "type": "lecture"
+          },
+          "backgroundColor": "#10b981"
+        },
+        {
+          "id": "stu1_evt3",
+          "title": "PHY101 - Physics I",
+          "start": "2024-01-15T14:00:00",
+          "end": "2024-01-15T15:30:00",
+          "extendedProps": {
+            "faculty": "Dr. Emily Davis",
+            "room": "PHY-LAB-1", 
+            "type": "lab"
+          },
+          "backgroundColor": "#f59e0b"
+        }
+      ]
+    }
+  },
+  "generated": {
+    "admin": [],
+    "faculty": {},
+    "students": {}
+  },
+  "metadata": {
+    "last_generated": null,
+    "term": "Fall 2024",
+    "version": "1.0",
+    "conflicts": 0,
+    "optimization_score": 96
+  }
+}

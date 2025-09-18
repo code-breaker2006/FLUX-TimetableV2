@@ -1,0 +1,114 @@
+[
+  {
+    "id": "FAC001",
+    "name": "Dr. Sarah Chen",
+    "email": "sarah.chen@university.edu",
+    "department": "Computer Science",
+    "title": "Associate Professor",
+    "preferences": {
+      "preferred_times": ["morning"],
+      "max_consecutive": 2,
+      "preferred_days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "blackout_times": []
+    },
+    "courses": ["CS101", "CS201", "CS301"]
+  },
+  {
+    "id": "FAC002",
+    "name": "Prof. Michael Brown", 
+    "email": "michael.brown@university.edu",
+    "department": "Mathematics",
+    "title": "Professor",
+    "preferences": {
+      "preferred_times": ["morning", "afternoon"],
+      "max_consecutive": 3,
+      "preferred_days": ["tuesday", "thursday"],
+      "blackout_times": ["friday_afternoon"]
+    },
+    "courses": ["MATH201", "MATH301", "MATH401"]
+  },
+  {
+    "id": "FAC003", 
+    "name": "Dr. Emily Davis",
+    "email": "emily.davis@university.edu",
+    "department": "Physics",
+    "title": "Assistant Professor", 
+    "preferences": {
+      "preferred_times": ["afternoon"],
+      "max_consecutive": 2,
+      "preferred_days": ["monday", "wednesday", "friday"],
+      "blackout_times": []
+    },
+    "courses": ["PHY101", "PHY201", "PHY301"]
+  },
+  {
+    "id": "FAC004",
+    "name": "Prof. Lisa Wilson",
+    "email": "lisa.wilson@university.edu", 
+    "department": "English",
+    "title": "Professor",
+    "preferences": {
+      "preferred_times": ["morning"],
+      "max_consecutive": 2,
+      "preferred_days": ["monday", "wednesday", "friday"],
+      "blackout_times": ["thursday"]
+    },
+    "courses": ["ENG102", "ENG201", "ENG301"]
+  },
+  {
+    "id": "FAC005",
+    "name": "Dr. Robert Kim", 
+    "email": "robert.kim@university.edu",
+    "department": "Computer Science",
+    "title": "Assistant Professor",
+    "preferences": {
+      "preferred_times": ["afternoon", "evening"], 
+      "max_consecutive": 3,
+      "preferred_days": ["tuesday", "thursday"],
+      "blackout_times": []
+    },
+    "courses": ["CS201", "CS401", "CS501"]
+  },
+  {
+    "id": "FAC006",
+    "name": "Dr. Jennifer Lee",
+    "email": "jennifer.lee@university.edu",
+    "department": "Mathematics",
+    "title": "Associate Professor",
+    "preferences": {
+      "preferred_times": ["morning"],
+      "max_consecutive": 2, 
+      "preferred_days": ["monday", "wednesday", "friday"],
+      "blackout_times": []
+    },
+    "courses": ["MATH301", "MATH401", "MATH501"]
+  },
+  {
+    "id": "FAC007",
+    "name": "Prof. James Wilson",
+    "email": "james.wilson@university.edu",
+    "department": "Physics", 
+    "title": "Professor",
+    "preferences": {
+      "preferred_times": ["morning", "afternoon"],
+      "max_consecutive": 2,
+      "preferred_days": ["tuesday", "thursday"],
+      "blackout_times": []
+    },
+    "courses": ["PHY201", "PHY401", "PHY501"]
+  },
+  {
+    "id": "FAC008",
+    "name": "Dr. Amanda Taylor",
+    "email": "amanda.taylor@university.edu",
+    "department": "English",
+    "title": "Assistant Professor",
+    "preferences": {
+      "preferred_times": ["afternoon"],
+      "max_consecutive": 2,
+      "preferred_days": ["monday", "tuesday", "wednesday"],
+      "blackout_times": ["friday"]
+    },
+    "courses": ["ENG102", "ENG201"]
+  }
+]
